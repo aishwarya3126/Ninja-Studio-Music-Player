@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="Homepage.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+            <link rel="shortcut icon" href="images/favicon.ico" /> 
+            <title>NINJA STUDIO</title>
+          
+    </head>
+
+    <body>
+        
+        <input type="radio" name="theme" id="theme-1" checked class="radio1">
+        <label for="theme-1" class="label1 pointer">dark</label>                        <!--theme for the page-->
+        <input type="radio" name="theme" id="theme-2" class="radio2">
+        <label for="theme-2" class="label2 pointer">light</label>
+
+        <div class="container">
+            <header>
+                <div class="item1">                                                 <!--logo-->
+                    <div class="logo">
+                        <div><i class="fas fa-headphones"></i></div>
+                    </div>
+                    <div class="logoText"><div>Ninja Studio</div></div>
+                </div>
+                <div class="item2">                                                 <!--browse-->
+                    <span class="browse_text">Browse</span>
+                    <div class="browse">
+                        <a href="#section2">
+                            <div class="id_content">
+                                Latest Albums
+                            </div>
+                        </a>
+                        <a href="#section3">
+                            <div class="id_content">
+                                Popular Artists
+                            </div>
+                        </a>
+                        <a href="#section4">
+                            <div class="id_content">
+                                Stations
+                            </div>
+                        </a>
+                        <a href="#section6">
+                            <div class="id_content">
+                                Latest English
+                            </div>
+                        </a>
+                        <a href="#section7">
+                            <div class="id_content">
+                                Latest Hindi
+                            </div>
+                        </a>
+                                                    
+                    </div>
+
+                </div>
+                <div class="item3">                                                   <!--search bar-->
+                    <div class="search">
+                        <div class="display_inline">
+                            <form class="display_inline">
+                                <label for="Search"><i class="fas fa-search"></i></label>
+                                <input type="text" placeholder="Search" id="Search">
+                            </form>
+                            <i class="fas fa-microphone" style="margin-left: 5px;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="item4">                                                     <!--notification-icon-->
+                        <i class="fas fa-bell pointer"></i>
+                </div>
+                
+                <div class="hamburger_menu">                                         <!--hamburger-icon-->
+                    <div class="menu_container">
+                        <div class="hamburger_icon pointer">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="">
+                            <div class="menu_content">
+                                Browse
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu_content">
+                                Notifications
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemid">                                           <!--user id-->
+                    <div class="id_img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN9CcCp6qHVhOaM5rA1eDI_f7y3qorgd2vsgB4hGMbJZjNQDsbyzq3ctUsgUvVZ1eBaeI&usqp=CAU">
+                    </div>
+                    <div class="account">
+                        <a href="">
+                            <div class="id_content">
+                                My Profile
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="id_content">
+                                Account Settings
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="id_content">
+                                Connect to facebook
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="id_content">
+                                Log out
+                            </div>
+                        </a>
+                        
+                            
+                    </div>
+                </div>
+            </header>
+
+            <div class="row">                                        <!--flex box: contains main annd aside sections-->
+                <div class="main">                                      <!--main-->
+                    <div id="section1">                                 
+                        <div>
+                            <div class="bg"></div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo9dOeMHYPI4UxDYpzUJ5tWX--rwCxlcur1Q&usqp=CAU">
+                            <div class="section1_text">Weekly Hits</div>
+                        </div>
+                        <div>
+                            <img src="https://static.toiimg.com/thumb/msid-72007745,width-219,height-317,imgsize-22940/72007745.jpg">
+                            <div class="section1_text">Latest Hindi</div>
+                        </div>
+                                
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0OOicYpMytle6KDTK4BIEPQ1g4HvRynmrWh2V0CUHaZzrl0Jnw">
+                            <div class="section1_text">Latest English</div>        
+                        </div> 
+                    </div>
+
+
+                    <div id="section2" class="section_margin">
+                            <div><h2>Latest Albums</h2></div>
+                            <div id="latest_releases">
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://i0.wp.com/urbanasian.com/wp-content/uploads/2021/07/shershah-movie.jpg?fit=1248%2C650&ssl=1">
+                                    </div>
+                                    <div class="section2_text">
+                                        <div class="song_name">SHERHSHAH</div>
+                                        <div class="date">AUG 12 2021</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id1"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id1" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431">
+                                    </div>
+                                    <div class="section2_text">
+                                        <div class="song_name">JUSTICE</div>
+                                        <div class="date">JUN 20 2021</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id2"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id2" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png">
+                                    </div>
+                                    <div class="section2_text">
+                                        <div class="song_name">Equals</div>
+                                        <div class="date">OCT 29 2021</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id3"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id3" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://i.ytimg.com/vi/eSHDZtPJ9Aw/maxresdefault.jpg">
+                                    </div>
+                                    <div  class="section2_text">
+                                        <div class="song_name">Happier Than Ever</div>
+                                        <div class="date">JULY 30 2021</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id4"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id4" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="section3" class="section_margin">
+                            <h2>Popular Artists</h2>
+                            <div id="popular_artists">
+                                <div>
+                                    <a href="coldplay.html">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbK0Zq99yL025zB8qPZEXd6RfCnACeS0gt1zG8_LBeRuYa1nIi"
+                                        alt="cannot be opened">
+
+                                    </a>
+                                    <h3>Coldplay</h3>
+                                </div>
+                                <div>
+                                    <a href="arijit.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnMKk7EiKr-ExeyTj0ZRHO4cpkl4hiSh2RtMvBlVxCmyh_ppTA" alt="cannot be opened"></a>
+                                    <h3>Arijit Singh</h3>
+                                </div>
+                                <div>
+                                   <a href="jubin.html"> <img src="https://cdn.siasat.com/wp-content/uploads/2021/09/jubin-nautiyals.jpg"></a>
+                                    <h3>Jubin Nautiyal</h3>
+                                </div>
+                                <div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqv3TjhdenPZZJgL_YarZ8ahRAVy9oeOx0iQTG1nlW1U6ajvl_DQ">
+                                    <h3>Bruno Mars</h3>
+                                </div>
+                                <div>
+                                    <img src="https://pbs.twimg.com/profile_images/1438768091882721283/7j7c4CwF_400x400.jpg">
+                                    <h3>Palak Muchhal</h3>
+                                </div>
+                                <div>
+                                   <a href="darshan.html"><img src="https://imgk.timesnownews.com/media/15906943c06218cb9d67d1855bc6cc5e.jpg" ></a>
+                                    <h3>Darshan Raval</h3>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                    
+                        <div id="section4" class="section_margin">
+                            <div class="one">
+                                <div class="two">
+                                    <div class="three"><i class="fas fa-headphones-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://videohive.img.customer.envatousercontent.com/files/7ecf9893-2972-446a-a912-88a7fb46d103/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=aac1322bbab3e3e00358dffe8203dcdc">
+                                <div class="section4_text">Love</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://image.shutterstock.com/image-vector/futuristic-retro-landscape-80s-vector-260nw-1008078868.jpg">
+                                <div class="section4_text">Retro</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMqj6F5lIVS0OKqEQMKaDUWGjin29BzCdnHOSitRM9UH_qbr5dw">
+                                <div class="section4_text">Chill</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://image.shutterstock.com/image-photo/gym-background-fitness-weight-equipment-260nw-1680121678.jpg">
+                                <div class="section4_text">Workout</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://image.shutterstock.com/image-photo/blurred-background-lighting-concert-stage-260nw-278256734.jpg">
+                                <div class="section4_text">Pop</div>
+                            </div>
+                        </div>
+                        
+                        <div id="section5">
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuq1mz0DycTw3fKO1S3u8Fd-rrHAtzGerwXmYUOleQ7rbgXM0cw">
+                                <div class="section5_text">Party</div>        
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGcW3UoK_KGviz0dx6pY4bVOgqSombf0yLV728aDh2ngIH3bsr">
+                                <div class="section5_text">Electronic</div>        
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgaSkU1FAFO6VGMX349wqwfXUCCwYEybzwWQK9BV0cuY2-33s_">
+                                <div class="section5_text">Road Trip</div>        
+                            </div>                   	
+                        </div> 
+
+                        <div id="section6" class="section_margin">
+                            <h2>Latest English</h2>
+                            <div class="latest">
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/KRUWn3dLoRg/maxresdefault.jpg">
+                                <audio src="ghost.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Ghost</div>
+                                <div class="date">MAR 18 2021</div>
+                            </div>
+                                
+                            <div class="audio1">
+
+                                <img src="https://i.ytimg.com/vi/3YqPKLZF_WU/maxresdefault.jpg">
+                                <audio src="myuniverse.mp3" controls autoplay loop></audio>
+                                <div class="song_name">My Universe</div>
+                                <div class="date">SEP 29 2021</div>
+                            </div>
+                                
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/kTJczUoc26U/maxresdefault.jpg">
+                                <audio src="stay.mp3" controls autoplay loop></audio>
+                                <div class="song_name">STAY</div>
+                                <div class="date">JUL 8 2021</div>
+                                    
+                            </div>
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/ZmDBbnmKpqQ/maxresdefault.jpg">
+                                <audio src="driver's license.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Driver's License</div>
+                                <div class="date">JAN 7 2021</div>
+                            </div>
+                                
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/orJSJGHjBLI/maxresdefault.jpg">
+                                <audio src="badhabits.mp3.mp3 "controls autuplay loop></audio>
+                                <div class="song_name">Bad habits</div>
+                                <div class="date">JUN 24 2021 </div>
+                                    
+                            </div>
+                            <div class="audio1" >
+                                <img src="https://i.ytimg.com/vi/P-FrQnI3slU/maxresdefault.jpg"
+                                >	
+                                <audio src="audio.mp3.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Talking to the moon</div>
+                                
+                                <div class="date">APR 6 2021</div>
+                                
+                                		
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="section7" class="section_margin">
+                        <h2>Latest Hindi</h2>
+                        <div class="latest">
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/M4xgsSN4PYE/maxresdefault.jpg">
+                                <audio src="merizindagihaitu.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Meri zindagi hai tu</div>
+                                <div class="date">OCT 27 2021</div>
+                            </div>
+                            
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/eZRpNmSgVOg/maxresdefault.jpg">
+                                <audio src="tenulehnga.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Tenu Lehnga</div>
+                                <div class="date">NOV 4 2021</div>
+                            </div>
+                            
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/hsICZS0K3xU/maxresdefault.jpg">
+                                <audio src="duniyachordoon.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Duniya chodd du</div>
+                                <div class="date">OCT 17 2021</div>
+                                
+                            </div>
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/ksY3wb4vtlA/maxresdefault.jpg">
+                                <audio src="jugnu.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Jugnu</div>
+                                <div class="date">OCT 25 2021</div>
+                            </div>
+                            
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/KDerzr9vOOQ/maxresdefault.jpg">
+                                <audio src="bijlee.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Bijlee Bijlee</div>
+                                <div class="date">OCT 30 20121</div>
+                                
+                            </div>
+                            <div class="audio1">
+                                <img src="https://i.ytimg.com/vi/Bj_xaltfmEU/maxresdefault.jpg">	
+                                <audio src="naah.mp3" controls autoplay loop></audio>
+                                <div class="song_name">Naah</div>
+                                <div class="date">OCT 29 2021</div>				
+                            </div>
+                        </div><br>
+                            
+                    </div>    
+                </div>
+
+
+
+
+                <div class="aside">
+                    
+                    <div class="queue">
+                        <h1>Queue</h1>
+
+                        <div class="queue_dropdown">
+                            <label for="queue_id" class="pointer">queue <span class="down_icon"><i class="fas fa-chevron-circle-down"></i></span></label>
+                            <input type="checkbox" id="queue_id" class="check">
+                            <div class="queue-content-box">
+                                <a href="#">
+                                    <div class="content">
+                                        Playlists
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="content">
+                                        Favourite Songs
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="queue_list">
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/GYuelKjcyPs/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">Arcade</div>
+                            <div class="aside_singer">NOV 19 2020</div>
+                            <audio src="arcade.mp3"controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav1">
+                                <input type="checkbox" id="fav1" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+
+                    <div class="song_list">
+                        <div class="list">02</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/xRb8hxwN5zc/maxresdefault.jpg">
+                        </div>
+                        
+                        <div class="aside_text">
+                            <div class="aside_song-name">Agar Tum Saath Ho</div>
+                            <div class="aside_singer">DEC 10 2015</div>
+                            <audio src="Tumsaathho.mp3"controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav3">
+                                <input type="checkbox" id="fav3" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                        
+                       
+                    </div>
+
+                    <div class="song_list">
+                        <div class="list">03</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/tQ0yjYUFKAE/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">Peaches</div>
+                            <div class="aside_singer">MAR 18 2021</div>
+                            <audio src="peaches.mp3"controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav3">
+                                <input type="checkbox" id="fav3" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+        
+                    <div class="song_list">
+                        <div class="list">04</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/LLF3GMfNEYU/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">Jannat ve</div>
+                            <div class="aside_singer">JUL 26 2021</div>
+                            <audio src="jannatve.mp3"controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav4">
+                                <input type="checkbox" id="fav4" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+
+                    <div class="song_list">
+                        <div class="list">05</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/_YG_tdQTOvM/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">Dil Chahte Ho</div>
+                            <div class="aside_singer">NOV 15 2020</div>
+                            <audio src="dilchahteho.mp3"controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav5">
+                                <input type="checkbox" id="fav5" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+            
+                    <div class="song_list">
+                        <div class="list">06</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/50VNCymT-Cs/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">Let Me Down Slowly</div>
+                            <div class="aside_singer">JUN 4 2018</div>
+                            <audio src="letmedown.mp3"controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav6">
+                                <input type="checkbox" id="fav6" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                            
+                    <div class="song_list">
+                        <div class="list">07</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/hsICZS0K3xU/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">Duniya Chhor Doon</div>
+                            <div class="aside_singer">OCT 17 2021</div>
+                            <audio src="duniyachordoon.mp3"controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav7">
+                                <input type="checkbox" id="fav7" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                
+                    <div class="song_list">
+                        <div class="list">08</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/eZRpNmSgVOg/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">TENU LEHNGA</div>
+                            <div class="aside_singer">NOV 4 2021</div>
+                            <audio src="tenulehnga.mp3" controls autoplay loop></audio>
+                            
+                        </div>
+                        <div>
+                            <label for="fav8">
+                                <input type="checkbox" id="fav8" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>            
+                    <div class="song_list">
+                        <div class="list">09</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/M4xgsSN4PYE/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">Meri Zindagi Hai Tu</div>
+                            <div class="aside_singer">OCT 27 2019</div>
+                            <audio src="merizindagihaitu.mp3" controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav9">
+                                <input type="checkbox" id="fav9" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                    
+                    <div class="song_list">
+                        <div class="list">10</div>
+                        <div class="aside_img">
+                            <img src="https://i.ytimg.com/vi/kTJczUoc26U/maxresdefault.jpg">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">STAY</div>
+                            <div class="aside_singer">JULY 8 2021</div>
+                            <audio src="stay.mp3" controls autoplay loop></audio>
+                        </div>
+                        <div>
+                            <label for="fav10">
+                                <input type="checkbox" id="fav10" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>                        
+                   
+                                                   
+                </div> 
+                    
+                   
+            </div>
+                
+            </div>
+
+            <div class="playbox">                                            <!--bottom music player-->
+                <div class="playbox1">
+                    <div class="playbox_img display_inline">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsg8TBz5COKOPNkc5_dm9CUqJsd5p6jqqvlF4QRlifpdDyTap">
+                </div>
+                    <div class="playbox_text display_inline">
+                        <div class="playbox_song-name">Song name</div>
+                        <div class="playbox_singer">DATE</div>
+                    </div>
+                    <div>
+                        <label for="fav18">
+                            <input type="checkbox" id="fav18" class="check">
+                            <i class="far fa-heart playbox_favourite"></i>
+                        </label>                          
+                    </div>
+                </div>
+                <div class="playbox2">
+                    <div class="play_buttons">
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                        <i class="far fa-pause-circle"></i>
+                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <div class="slider_container">
+                        <span>1.23</span>
+                        <input type="range" min="0" max="4.13" step="0.1" class="slider">
+                        <span>4.13</span>
+                    </div>
+                </div>
+                <div class="playbox3">
+                    <div class="play_buttons">
+                        <i class="fas fa-stream"></i>
+                        <i class="fas fa-download"></i>
+                        <i class="fas fa-volume-down"></i>
+                        <i class="fas fa-expand"></i>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
